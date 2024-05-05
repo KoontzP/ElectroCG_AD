@@ -22,12 +22,10 @@ The primary objective of this pipeline is to leverage neural networks to learn t
 
 ### Applications
 - **Healthcare Monitoring**: The pipeline can be deployed in healthcare settings to continuously monitor ECG signals, providing early detection of abnormal heart rhythms and triggering alerts for medical intervention.
+
+- **Training applications**: Various apps in excercise and health can leverage this pipeline to detect abnormalities in heartrate to provide a safe and protecting training application.
    
 - **Research and Development**: Researchers can utilize this pipeline to explore novel approaches for anomaly detection in ECG data, contributing to advancements in cardiac health monitoring technology.
-
-
-
-
 
 ### License
 The ECG5000 dataset is provided by timeseriesclassification.com and is subject to its respective terms and conditions. Please refer to the timeseriesclassification.com terms of use for more information regarding the usage and redistribution of the dataset.

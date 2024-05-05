@@ -33,5 +33,5 @@ The primary objective of this pipeline is to leverage neural networks to learn t
 The ECG5000 dataset is provided by timeseriesclassification.com and is subject to its respective terms and conditions. Please refer to the timeseriesclassification.com terms of use for more information regarding the usage and redistribution of the dataset.
 
 ### Acknowledgments
-I acknowledge timeseriesclassification.com for providing the ECG5000 dataset, which serves as the foundation for this project. Special thanks to the creators and contributors of the dataset for their efforts in collecting and curating this valuable resource for the research community.
+I extend my gratitude to Y. Chen and E. Keogh for donating the ECG5000 dataset, which serves as the foundation for this project. Their contribution and effort in providing this valuable dataset are greatly appreciated by the research community in the pursue of deep learning applications.
 Additionally, I acknowledge TensorFlow YouTube channel for their insightful tutorial on building anomaly detection pipelines with deep learning, which provided valuable guidance and inspiration for this project.

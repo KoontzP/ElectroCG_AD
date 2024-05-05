@@ -1,4 +1,36 @@
-This is a anomaly detection pipeline to detect anomalies in electro cardiograms with the use of deep learning with tensorflow. The pipeline uses the dataset ECG5000 that consists of ECG's that are normal and unnormal.
-The neural networks learn features of how a normal ECG looks like and detects deviances by deconstructing and reconstructing ECG's. 
-The network decides if a ECG has a anomaly when the error size is bigger then a certain threshold that it learns from training on normal ECG's.
-This can be usefull in healthcare to alarm or notify the staff when a heartrate behaves abnormal.
+## Anomaly Detection Pipeline for Electrocardiograms (ECG)
+
+### Overview
+This repository contains an anomaly detection pipeline designed to identify anomalies in electrocardiograms (ECGs) using deep learning techniques with TensorFlow. The pipeline is built upon the ECG5000 dataset, which includes both normal and abnormal ECG readings.
+
+### Purpose
+The primary objective of this pipeline is to leverage neural networks to learn the distinguishing features of normal ECG patterns and subsequently detect deviations indicative of abnormalities. By deconstructing and reconstructing ECG signals, the neural network can discern anomalies based on the magnitude of reconstruction error exceeding a predefined threshold. This capability has significant potential in healthcare settings, allowing for timely alerts or notifications to medical staff when irregular heart rhythms are detected.
+
+### Key Components
+1. **Dataset**: The ECG5000 dataset, comprising normal and abnormal ECG recordings, serves as the foundational data for training and evaluation.
+   
+2. **Deep Learning Model**: TensorFlow is utilized to construct and train neural networks capable of learning complex patterns in ECG signals.
+
+3. **Anomaly Detection Mechanism**: The pipeline incorporates a mechanism to determine anomalies by comparing the reconstruction error of ECG signals against a predefined threshold learned during training on normal ECGs.
+
+### How It Works
+1. **Data Preprocessing**: Raw ECG data is preprocessed to prepare it for input into the neural network.
+   
+2. **Model Training**: The neural network is trained on a dataset consisting of normal ECG signals to learn the characteristic features of healthy heart rhythms.
+   
+3. **Anomaly Detection**: During inference, the trained model reconstructs input ECG signals and computes the reconstruction error. An anomaly is flagged when the error exceeds the predetermined threshold.
+
+### Applications
+- **Healthcare Monitoring**: The pipeline can be deployed in healthcare settings to continuously monitor ECG signals, providing early detection of abnormal heart rhythms and triggering alerts for medical intervention.
+   
+- **Research and Development**: Researchers can utilize this pipeline to explore novel approaches for anomaly detection in ECG data, contributing to advancements in cardiac health monitoring technology.
+
+
+
+
+
+### License
+The ECG5000 dataset is provided by timeseriesclassification.com and is subject to its respective terms and conditions. Please refer to the timeseriesclassification.com terms of use for more information regarding the usage and redistribution of the dataset.
+
+### Acknowledgments
+I acknowledge timeseriesclassification.com for providing the ECG5000 dataset, which serves as the foundation for this project. Special thanks to the creators and contributors of the dataset for their efforts in collecting and curating this valuable resource for the research community.

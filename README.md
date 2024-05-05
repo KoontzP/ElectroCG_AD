@@ -34,4 +34,4 @@ The ECG5000 dataset is provided by timeseriesclassification.com and is subject t
 
 ### Acknowledgments
 I extend my gratitude to Y. Chen and E. Keogh for donating the ECG5000 dataset, which serves as the foundation for this project. Their contribution and effort in providing this valuable dataset are greatly appreciated by the research community in the pursue of deep learning applications.
-Additionally, I acknowledge TensorFlow YouTube channel for their insightful tutorial on building anomaly detection pipelines with deep learning, which provided valuable guidance and inspiration for this project.
+Additionally, I acknowledge Laurence Moroney from the TensorFlow YouTube channel for his insightful tutorial on building anomaly detection pipelines with deep learning, which provided valuable guidance and inspiration for this project.
